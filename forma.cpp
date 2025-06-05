@@ -1,28 +1,18 @@
 #include "forma.h"
 
-Forma::Forma()
-{
+Forma::Forma() : x(0), y(0) {}
 
-}
+Forma::Forma(int X, int Y) : x(X), y(Y) {}
 
-Forma::Forma(int X, int Y)
-{
+void Forma::setCentro(int X, int Y) {
     x = X;
     y = Y;
 }
 
-void Forma::setCentro(int X, int Y)
-{
-    x = X;
-    y = Y;
-}
-
-int Forma::getX()
-{
+int Forma::getX() {
     return x;
 }
 
-int Forma::getY()
-{
+int Forma::getY() {
     return y;
 }

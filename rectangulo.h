@@ -1,7 +1,7 @@
 #ifndef RECTANGULO_H
 #define RECTANGULO_H
 
-#include "Forma.h"
+#include "forma.h"
 
 class rectangulo : public Forma {
 private:
@@ -12,7 +12,7 @@ public:
     rectangulo(int X, int Y, int _base, int _altura);
 
     void setRectangulo(int _base, int _altura);
-    
+
     int getBase();
     int getAltura();
 
