@@ -5,7 +5,9 @@ CONFIG -= qt
 
 SOURCES += \
         forma.cpp \
-        main.cpp
+        main.cpp \
+        rectangulo.cpp
 
 HEADERS += \
-    forma.h
+    forma.h \
+    rectangulo.h
